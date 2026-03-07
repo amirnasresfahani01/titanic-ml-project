@@ -36,34 +36,35 @@ which indicates whether a passenger survived the Titanic disaster.
 
 ---
 
-# Project Structure
+## Project Structure
+```markdown
+```text
 titanic-ml-project
 │
 ├── data
-│ └── titanic.csv
+│   └── titanic.csv
 │
 ├── models
-│ └── titanic_model.pkl
+│   └── titanic_model.pkl
 │
 ├── notebooks
-│ ├── 01_data_understanding.ipynb
-│ ├── 02_eda.ipynb
-│ ├── 03_feature_engineering.ipynb
-│ ├── 04_baseline_model.ipynb
-│ └── 05_model_comparison.ipynb
+│   ├── 01_data_understanding.ipynb
+│   ├── 02_eda.ipynb
+│   ├── 03_feature_engineering.ipynb
+│   ├── 04_baseline_model.ipynb
+│   └── 05_model_comparison.ipynb
 │
 ├── src
-│ ├── config.py
-│ ├── load_data.py
-│ ├── preprocess.py
-│ ├── features.py
-│ ├── train.py
-│ └── predict.py
+│   ├── config.py
+│   ├── load_data.py
+│   ├── preprocess.py
+│   ├── features.py
+│   ├── train.py
+│   └── predict.py
 │
 ├── README.md
 └── requirements.txt
-
----
+```
 
 # Notebooks Overview
 
