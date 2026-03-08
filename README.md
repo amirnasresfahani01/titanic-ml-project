@@ -58,7 +58,7 @@ which indicates whether a passenger survived the Titanic disaster.
 titanic-ml-project
 │
 ├── assets
-│   └── model_comparison.png
+│   └── Correlation_Matrix.png
 │
 ├── data
 │   └── titanic.csv
