@@ -1,10 +1,26 @@
 # Titanic Survival Prediction — End-to-End Data Science Project
 
+## Project Preview
+
+![EDA Summery](assets/Correlation%20Matrix.png)
+
 This project demonstrates a complete end-to-end data science workflow using the Titanic dataset. The objective is to build and evaluate machine learning models that predict whether a passenger survived the Titanic disaster.
 
 The project follows a structured machine learning pipeline including data understanding, exploratory data analysis (EDA), feature engineering, baseline modeling, model comparison, and evaluation.
 
 ---
+
+## Key Features
+
+- Complete end-to-end machine learning workflow
+- Exploratory Data Analysis (EDA) with visualizations
+- Feature engineering including family size and passenger title
+- Baseline model using Logistic Regression
+- Comparison of multiple machine learning models
+- Model evaluation using confusion matrix and classification report
+
+---
+
 
 # Project Workflow
 
@@ -41,6 +57,9 @@ which indicates whether a passenger survived the Titanic disaster.
 ```text
 titanic-ml-project
 │
+├── assets
+│   └── model_comparison.png
+│
 ├── data
 │   └── titanic.csv
 │
@@ -55,6 +74,7 @@ titanic-ml-project
 │   └── 05_model_comparison.ipynb
 │
 ├── src
+│   ├── __init__.py
 │   ├── config.py
 │   ├── load_data.py
 │   ├── preprocess.py
@@ -139,6 +159,16 @@ Several features were engineered to improve model performance:
 - **title** extracted from passenger names  
 
 These features help capture demographic and social patterns that influence survival probability.
+
+## Results
+
+| Model | Accuracy |
+|------|---------|
+| Logistic Regression | 0.81 |
+| Random Forest | 0.79 |
+| Gradient Boosting | 0.81 |
+
+Gradient Boosting achieved the best performance in this experiment.
 
 ---
 
